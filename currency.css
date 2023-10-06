@@ -1,0 +1,108 @@
+.nav{
+   background-color: black;
+
+}
+
+/* Reset some default styles */
+body, h1, select, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2014/08/09/21/57/pound-414418_640.jpg);
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 90px;
+}
+
+.nav img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.nav h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.tag{
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.converter {
+  
+    height: 500px;
+    background-image: url(https://media.istockphoto.com/id/1457185009/photo/the-person-who-calculates-with-turkish-money.webp?b=1&s=612x612&w=0&k=20&c=G5mqOLwJV5E36Ti0Rm5RRlXPvDjNbBtpZ_eOP8uoOq4=);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+}
+
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color:darkkhaki;
+    background-color: rgb(37, 127, 180);
+    margin-bottom: 20px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .converter {
+        margin: 10px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <nav class="nav">
+       <img  class="img" src="https://cdn-icons-png.flaticon.com/128/893/893078.png" alt="notfoound"/>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      
+     
+      </nav>
+    <h1 class="heading">Currency Converter<img class="tag" src="https://cdn-icons-png.flaticon.com/128/925/925748.png" alt="notfound"/></h1>
+    <div class="converter">
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="fromCurrency">
+            <option value="INR">Indian rupee</option>
+            <option value="USD">U.S. dollar</option>
+            <option value="EUR">Euro</option>
+            <option value="JPY">Japanese yen</option>
+            <option value="AUD">Australian dollar</option>
+            <option value="CAD">Canadian dollar</option>
+            <option value="HKD">Hong Kong dollar</option>
+            <option value="SGD">Singapore dollar</option>
+            <option value="SEK">Swedish krona</option>
+            <option value="KRW">South Korean won</option>
+            <option value="NOK">Norwegian krone</option>
+            <option value="NZD">New Zealand dollar</option>
+            <option value="MXN">Mexican peso</option>
+            <option value="TWD">New Taiwan dollar</option>
+            <option value="ZAR">South African rand</option>
+            <option value="BRL">Brazilian real</option>
+            <option value="DKK">Danish krone</option>
+            <option value="IDR">Indonesian rupiah</option>
+            <option value="AED">UAE dirham</option>
+            <option value="RUB">Russian ruble</option>
+        
+        </select>
+        <select id="toCurrency">
+            <option value="INR">Indian rupee</option>
+            <option value="USD">U.S. dollar</option>
+            <option value="EUR">Euro</option>
+            <option value="JPY">Japanese yen</option>
+            <option value="AUD">Australian dollar</option>
+            <option value="CAD">Canadian dollar</option>
+            <option value="HKD">Hong Kong dollar</option>
+            <option value="SGD">Singapore dollar</option>
+            <option value="SEK">Swedish krona</option>
+            <option value="KRW">South Korean won</option>
+            <option value="NOK">Norwegian krone</option>
+            <option value="NZD">New Zealand dollar</option>
+            <option value="MXN">Mexican peso</option>
+            <option value="TWD">New Taiwan dollar</option>
+            <option value="ZAR">South African rand</option>
+            <option value="BRL">Brazilian real</option>
+            <option value="DKK">Danish krone</option>
+            <option value="IDR">Indonesian rupiah</option>
+            <option value="AED">UAE dirham</option>
+            <option value="RUB">Russian ruble</option>
+           
+            <!-- Add more currency options here -->
+        </select> 
+        
+        <button id="convert">Convert</button>
+        <h1 class="result"><span id="result">Your Amount</span></h1>
+    </div>
+    <script src="currency.js"></script>
+</body>
+</html>
+
